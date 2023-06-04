@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo-img{
+    width: 90px;
+}
+
+header{
+    padding: 0% 3%;
+    background-color: whitesmoke;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.387);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-list-item{
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    border-bottom: 2px solid transparent;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+ul li:hover{
+    transition: .5s;
+    text-decoration: underline;
+}
+
+/* SECTION 1 */
+
+.main-content{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-text{
+    width: 400px;
+    font-size: 45px;
+}
+
+.main-section-img{
+    object-fit:cover;
+    width: 100%;
+}
+
+/* SECTION 2 */
+
+.dog-cards{
+    height: 470px;
+    width: 100%;
+    background-color: #F3714B ;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.dog-cards h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.dog-cards h2 span{
+    font-weight: 900;
+}
+
+.card{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-item{
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+}
+
+.card-content{
+    margin: 10px;
+}
+
+.price{
+    text-align: start;
+    margin-left: 10px;
+}
+
+.dog-card-button{
+    padding: 10px 70px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.dog-card-button:hover{
+    color:#F3714B;
+    background-color: white;
+    border-color: #F3714B;
+}
+
+/* SECTION 3 */
+
+
+.form-input{
+    justify-content: space-between;
+    display: flex;
+    width: 50%;
+    background-color: aqua;
+    padding: 3%;
+    border-radius: 20px;
+    min-height: 20vh;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.contact{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.form-img{
+    width: 200px;
+    margin-left: 150px;
+}
+
+.form-img img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.form-button button{
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+
+h3{
+    text-align: center;
+}
